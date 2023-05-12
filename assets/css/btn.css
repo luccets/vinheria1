@@ -1,0 +1,22 @@
+.btn {
+    border: 2px solid #dc143c;
+    padding: 10px 30px;
+    /* arredondando o botao  */
+    border-radius: 70px;
+
+    background-color: #dc143c;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    /* tempo pro hover ser aplicado  */
+    transition: .8s;
+}
+
+/* pseudoclasse só funciona essa regra qnd o mouse tiver em cima do btn */
+.btn:hover {
+    background-color: transparent;
+    color: #dc143c;
+
+
+}

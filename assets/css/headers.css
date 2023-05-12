@@ -1,0 +1,27 @@
+/* header da pagina  */
+.header-page {
+    width: 100%;
+    height: 100px;
+
+    /* colocando as li ao lado  */
+    display: flex; 
+    flex-direction:row ; 
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+
+}
+
+.header-menu a {color: #fff;}
+
+.header-menu ul {
+    display: flex;
+    gap: 20px;
+}
+/*fim do header da pagina  */
