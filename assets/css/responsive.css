@@ -1,0 +1,15 @@
+/* mudando o site de acordo com o tamanho  */
+
+@media(max-width: 1024px){
+
+    .card-item {
+        width: 40%;
+    }
+}
+
+@media(max-width: 700px) {
+
+    .card-item {
+        width: 80%;
+    }
+}
